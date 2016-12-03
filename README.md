@@ -21,7 +21,7 @@ Grunt 的配置使用
  第五步：安装所需的插件（注：复制下面全部）
  npm install --save-dev grunt-contrib-concat 
  grunt-contrib-jshint grunt-contrib-sass grunt-contrib-uglify 
- grunt-contrib-watch grunt-contrib-connect
+ grunt-contrib-watch grunt-contrib-connect grunt-contrib-cssmin
  
  插件安装解释：
  合并文件：grunt-contrib-concat
@@ -30,6 +30,7 @@ Grunt 的配置使用
  压缩文件：grunt-contrib-uglify
  监听文件变动：grunt-contrib-watch
  建立本地服务器：grunt-contrib-connect
+ 压缩css：grunt-contrib-cssmin
  
  第五步：然后直接运行此项目！
  
